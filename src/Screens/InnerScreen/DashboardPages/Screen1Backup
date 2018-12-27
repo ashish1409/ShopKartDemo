@@ -1,0 +1,87 @@
+import React, { Component } from 'react';
+import { StyleSheet, View, FlatList, Image } from 'react-native';
+import { createBottomTabNavigator } from "react-navigation";
+import { Header, Drawer, Left, Content, Text, Button, Icon, Body, Title, Right, Container } from 'native-base';
+
+export default class App extends Component {
+
+  navOptions
+
+  static navigationOptions = ({ navigation }) => {
+
+    navOptions = navigation;
+    const { params = {} } = navigation.state;
+
+    return {
+      headerLeft: (
+        <Button
+          transparent
+          onPress={() => params._onHeaderEventControl()}
+        >
+          <Icon
+            name="menu"
+            style={{ fontSize: 30, color: 'white' }}
+          />
+        </Button>
+      )
+    }
+  }
+
+  onHeaderEventControl() {
+    const { params = {} } = navOptions.state;
+    params._openNav()
+  }
+
+  componentDidMount() {
+    this.props.navigation.setParams({
+      _onHeaderEventControl: this.onHeaderEventControl,
+      _openNav: () => this.openDrawer()
+    })
+  }
+
+  openDrawer() {
+    this.props.navigation.navigate('DrawerOpen');
+  }
+
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.welcome} onPress={() => {
+          this.props.navigation.navigate('Favorite');
+        }}>
+          Screen 123
+        </Text>
+        <View style={styles.welcome}>
+          <Button onPress={() => {
+            this.props.navigation.navigate('Home');
+          }}>
+            <Text>Show Screen 1</Text>
+          </Button>
+        </View>
+
+      </View>
+    );
+  }
+
+
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'silver',
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+    marginTop: 200,
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5,
+  },
+});

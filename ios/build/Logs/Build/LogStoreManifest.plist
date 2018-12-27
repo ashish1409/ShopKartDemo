@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>C047505A-C19C-4DCE-9C29-0E3E21716DEA</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C047505A-C19C-4DCE-9C29-0E3E21716DEA.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>AwesomeNativeBase project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AwesomeNativeBase</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project AwesomeNativeBase with scheme AwesomeNativeBase and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>567588000.96813297</real>
+			<key>timeStoppedRecording</key>
+			<real>567588020.61581194</real>
+			<key>title</key>
+			<string>Building project AwesomeNativeBase with scheme AwesomeNativeBase and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>C047505A-C19C-4DCE-9C29-0E3E21716DEA</string>
+		</dict>
+		<key>CEDFF449-AF1B-4BA7-A0E2-F0B013099741</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CEDFF449-AF1B-4BA7-A0E2-F0B013099741.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>AwesomeNativeBase project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AwesomeNativeBase</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project AwesomeNativeBase with scheme AwesomeNativeBase and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>566832086.84780002</real>
+			<key>timeStoppedRecording</key>
+			<real>566832095.81904697</real>
+			<key>title</key>
+			<string>Building project AwesomeNativeBase with scheme AwesomeNativeBase and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>CEDFF449-AF1B-4BA7-A0E2-F0B013099741</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
